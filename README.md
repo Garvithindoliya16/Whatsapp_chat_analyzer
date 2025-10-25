@@ -78,8 +78,7 @@ Go to **WhatsApp → Export Chat → Without Media**, and upload the `.txt` file
 
 - Add sentiment analysis  
 - Compare chats between users  
-- Support for multiple chat file formats  
-- Export reports as PDF  
+- Support for multiple chat file formats 
 
 ---
 

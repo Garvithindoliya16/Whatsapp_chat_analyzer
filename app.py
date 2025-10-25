@@ -150,8 +150,26 @@ if uploaded_file is not None:
                 ax.pie(emojies_df[1].head(),labels=emojies_df[0].head(),autopct="%0.2f")
                 st.pyplot(fig)
 
+        
 
 
 
         
+
+        # ===== STREAMLIT DOWNLOAD BUTTON =====
+        st.sidebar.markdown("### 📄 Export Report")
+        pdf_path = helper.generate_full_pdf(selected_user, df)
+        # if st.sidebar.button("Generate PDF Report"):
+            # print("Not clicked")
+        with open(pdf_path, "rb") as f:
+            st.sidebar.download_button(
+                label="Download Full PDF Report",
+                data=f,
+                file_name=f"{selected_user}_WhatsApp_Report.pdf",
+                mime="application/pdf"
+            )
+
+        
+
+
 

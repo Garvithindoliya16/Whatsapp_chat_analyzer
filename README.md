@@ -14,6 +14,7 @@ A powerful and interactive web app built using **Python** and **Streamlit** that
 - 📅 **Busy Day & Hour** — discover when your group is most active  
 - 🔍 **Filter by User** — analyze chats of specific people  
 - ⚙️ **Automatic Data Cleaning** — removes system messages and users with fewer than 5 messages
+- 📈 **Automatic PDF Report generation** - Generates PDF report with all graphs 
 
 ---
 
